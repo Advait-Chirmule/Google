@@ -1,0 +1,143 @@
+html, body{
+    margin: 0px;
+    height: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+#nav a{
+    text-decoration:none;
+    color:inherit;
+}
+.footer-content a{
+    text-decoration:none;
+    color:inherit;
+}
+.footer-left a{
+    text-decoration:none;
+    color:inherit;
+}
+.footer-right a{
+    text-decoration:none;
+    color:inherit;
+}
+a:hover{
+    text-decoration: none;
+}
+#nav a{
+    margin-right: 20px;
+}
+.toplink{
+    margin-top: 20px;
+}
+.topimage{
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 60px;
+}
+#middle{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    text-align: center;
+}
+.searchbarcontainer{
+    margin-top: 20px;
+    text-align: center;
+}
+.search{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.voice{
+    position: absolute;
+    margin-left: 535px;
+    margin-top: 3px;
+}
+.searchbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    z-index: 0;
+    width: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    border: 1px solid #e0e0e0;
+}
+.searchbar:hover{
+    box-shadow: 0 0 10px 2px rgb(233,233,233);
+}
+#buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin-left: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin-right: 5px;
+    padding: 6px 15px;
+    cursor: pointer;
+    color: #606060;
+    border-radius: 3px;
+    background: #f9f9f9;
+    border: 2px solid transparent;
+}
+#links{
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.button:hover{
+    box-shadow: 0 0 10px 2px rgb(233,233,233);
+    flex-direction: column;
+}
+.footer-left{
+    position: fixed;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    padding: 12px;
+    padding-left: 30px;
+    border-top: 1px solid #dedede;
+    background: #f0f0f0;
+    color: #606060;
+    text-decoration: none;
+}
+.footer-right{
+    background: #f0f0f0;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    border-top: 1px solid #dedede;
+    padding: 12px;
+    padding-right: 30px;
+    text-align: right;
+    color: #606060;
+    text-decoration: none;
+}
+.footer-content{
+    font-size: 15px;
+    background: #f0f0f0;
+    font-family: arial, sans-serif;
+    border-top: 1px  solid #dedede;
+    padding: 12px;
+    padding-left: 30px;
+    color: #8e8e8e;
+    text-decoration: none;
+}
